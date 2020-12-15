@@ -1,4 +1,4 @@
-package cardTransaction1210;
+package homework1210;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -82,7 +82,7 @@ class VISACard {
 
 }
 
-class HPVISACard extends cardTransaction1210.VISACard {
+class HPVISACard extends VISACard {
 
     @Override
     public double computeRewardPoints(String type, double amount) {

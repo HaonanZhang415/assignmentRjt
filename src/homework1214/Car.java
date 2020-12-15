@@ -18,6 +18,14 @@ class Mercedes extends Car {
 
 }
 
+class CarWash {
+
+    void washCar(Car car) {
+        System.out.println("Car is being washed!");
+    }
+
+}
+
 class Main {
 
     public static void main(String[] args) {
@@ -26,6 +34,8 @@ class Main {
         car1.engineStart();
         System.out.println(((Mercedes)car1).price);
 
+        Mercedes mercedes = new Mercedes();
+        new CarWash().washCar(mercedes);
     }
 
 
