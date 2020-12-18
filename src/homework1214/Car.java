@@ -2,6 +2,8 @@ package homework1214;
 
 public class Car {
 
+    protected void protectedMethod() {System.out.println("protected!");}
+
     void engineStart() {
         System.out.println("regular start");
     }
